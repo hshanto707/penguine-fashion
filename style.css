@@ -38,7 +38,6 @@ a {
 
 .buy-now {
   display: inline-block;
-  margin-top: 40px;
   font-size: 16px;
   font-weight: 500;
   color: white;
@@ -109,4 +108,52 @@ header {
 
 .hero-images {
   width: 100%;
+}
+
+/* ! WOMAN JACKET SECTION */
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #363958;
+  margin-bottom: 30px;
+}
+
+.jackets {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  padding: 10px;
+}
+
+.card-img {
+  background-color: #F1F1F1;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #363958;
+  margin: 20px 0;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.price {
+  font-size: 30px;
+  color: #FABE4C;
+  margin: auto 0;
 }
