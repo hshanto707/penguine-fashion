@@ -157,3 +157,32 @@ header {
   color: #FABE4C;
   margin: auto 0;
 }
+
+
+/* ! INFORMATION SECTION */
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.info {
+  margin: auto 0;
+  width: 30%;
+}
+
+.info-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.information-img {
+  width: 50%;
+  text-align: center;
+}
+.information-img img {
+  width: 600px;
+}
