@@ -26,6 +26,42 @@ a {
   text-decoration: none;
 }
 
+.details {
+  font-size: 16px;
+  font-weight: 400;
+  color: #3E3E3E;
+}
+
+.mark {
+  color: #FABE4C;
+}
+
+.buy-now {
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  padding: 20px 40px;
+  background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+  border-radius: 10px;
+}
+
+.buy-now:hover {
+  background: linear-gradient(180deg,  #85A019 0%, #A4BC46 100%);
+
+}
+
+.buy-now::before {
+  display: inline-block;
+  content: "\f23d";
+  font-family: "FontAwesome";
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
 /* ! NAVBAR */
 
 header {
@@ -54,3 +90,23 @@ header {
 
 /* ! HERO SECTION */
 
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-info {
+  margin-right: 2px;
+}
+
+.hero-title {
+  font-size: 80px;
+  font-weight: 700;
+  color: #363958;
+  margin-bottom: 20px;
+}
+
+.hero-images {
+  width: 100%;
+}
